@@ -1,0 +1,35 @@
+<!-- Implemenet hidden with scroll
+https://bootstrap-menu.com/detail-smart-hide.html
+ -->
+
+ <header role="banner">
+    <nav class="navbar smart-scroll navbar-expand-sm navbar-light fixed-top pt-2" role="navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{{site.baseurl}}/">
+
+        <img src="{{ site.baseurl }}/assets/img/Logo/index.svg" class="" alt="{{ site.title }}">
+
+        <!-- {{ site.title }} -->
+
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar" class="collapse navbar-collapse">
+      		  <ul class="navbar-nav ml-auto ml-4">
+            {% for item in site.data.nav.items limit:3 %}
+              {% if page.url == item.url %}
+                <li class="nav-item active">
+                  <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+                </li>
+              {% else %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}			
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </header>

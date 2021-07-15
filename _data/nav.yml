@@ -1,0 +1,12 @@
+items:
+  #Information about worker owned coops
+  - title: WHO WE ARE
+    url: '#about'
+  #Make the posibility of people just to text photos and or share location of things that are for free and we can pick up
+  - title: WHAT WE DO
+    url: '#solutions'
+    description: "We collect, dissamble by component, salvage all the usable parts and micro sort and recycle/upcycle the remaining components. Examples of electronics we recycle: Old Lithuim Batteries, Computers, Laptops, Musical equipment. We guarantee to salvage all the usable components and thus try and reduce the running harm of planne obsolesance."
+  #Precious Plastic, Urban Farming, Data and ML, Erecycling
+  - title: aproach
+    url: '#approach'
+    description: "How we work"
