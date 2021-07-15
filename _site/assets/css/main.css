@@ -78,9 +78,9 @@ body {
  width:100%;
  border-width:0;
  border-top:4px solid;
- ! -o-border-image:-o-linear-gradient(left,#575a7b,#575a7b 20%,#f9655b 20%,#f9655b 40%,#f5c070 40%,#f5c070 60%,#6658ea 60%,#6658ea 80%,#fcc 80%) 1; 
+ ! -o-border-image:-o-linear-gradient(left,#575a7b,#575a7b 20%,#f9655b 20%,#f9655b 40%,#f5c070 40%,#f5c070 60%,#6658ea 60%,#6658ea 80%,#fcc 80%) 1;
  border-image:-webkit-gradient(linear,left top,right top,from(#575a7b),color-stop(20%,#575a7b),color-stop(20%,#f9655b),color-stop(40%,#f9655b),color-stop(40%,#f5c070),color-stop(60%,#f5c070),color-stop(60%,#6658ea),color-stop(80%,#6658ea),color-stop(80%,#fcc)) 1;
- ! border-image:linear-gradient(to right,#575a7b,#575a7b 20%,#f9655b 20%,#f9655b 40%,#f5c070 40%,#f5c070 60%,#6658ea 60%,#6658ea 80%,#fcc 80%) 1; 
+ ! border-image:linear-gradient(to right,#575a7b,#575a7b 20%,#f9655b 20%,#f9655b 40%,#f5c070 40%,#f5c070 60%,#6658ea 60%,#6658ea 80%,#fcc 80%) 1;
 }*/
 
 
@@ -206,7 +206,7 @@ body {
     bottom: 10%;
     left: 2%;
 /*    transform: translate(-50%, -50%);
-*/    
+*/
 	color: black;
 /*	padding-top: 200px;*/
 	background-size: 75%;
@@ -230,12 +230,14 @@ body {
 
 .hero2 {
 	maring: 0;
-	background: url('../img/iconLogo.svg') no-repeat;
+	background: url('../img/logo-opacity.png') no-repeat;
 	background-size: 300px 300px;
 	background-position: 75% 50%;
 	background-color: #aad19e;
 	font-family: 'Montserrat';
 }
+
+
 
 .hero2-stack {
 	text-align: left;
@@ -243,7 +245,7 @@ body {
     top: 10%;
     left: 2%;
 /*    transform: translate(-50%, -50%);
-*/    
+*/
 	color: black;
 /*	padding-top: 200px;*/
 	background-size: 75%;
@@ -256,9 +258,15 @@ body {
 	left: 50%;*/
 }
 
+.break {
+	maring: 0;
+	background: url('../img/bg.jpg');
+	height: 10%;
+}
+
 .hero3 {
 	maring: 0;
-	background: url('../img/iconSeed.svg') no-repeat center left;
+	background: url('../img/flower.png') no-repeat center left;
 	background-size: 300px 300px;
 	background-position: 25% 50%;
 	background-color: #49745d;
@@ -277,7 +285,7 @@ body {
 
 .hero5{
 	maring: 0;
-	background: url('../img/iconCircle.svg') no-repeat;
+	background: url('../img/circle.png') no-repeat;
 	background-size: 300px 300px;
 	background-position: 75% 50%;
 	background-color: #79a969;
@@ -305,4 +313,4 @@ body {
 	max-width: 250px;
 	display: block;
 	width: 100%;
-} 
+}
