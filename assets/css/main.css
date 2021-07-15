@@ -259,8 +259,8 @@ body {
 }
 
 .bgbreak {
-	background: url('../img/bg.jpg');
-	height: 10%;
+  height: 10%;
+  background-image: url('../img/bg.jpg');  
 }
 
 .hero3 {

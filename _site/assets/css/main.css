@@ -258,9 +258,9 @@ body {
 	left: 50%;*/
 }
 
-.break {
-	background: url('../img/bg.jpg');
-	height: 10%;
+.bgbreak {
+  height: 10%;
+  background-image: url('../img/bg.jpg');  
 }
 
 .hero3 {
